@@ -1,5 +1,9 @@
-<div>Pemanasan Kepala</div>
-<button type="button" onclick="init()">Mulai</button>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="text">Pemanasan Kepala</div>
+<button id="text" type="button" onclick="init()">Mulai</button>
 <div><canvas id="canvas"></canvas></div>
 <div id="label-container"></div>
 <br><br><br><br>
