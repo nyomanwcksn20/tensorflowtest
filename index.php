@@ -30,6 +30,7 @@
 
     function pauseAud() { 
       aud.pause(); 
+      aud.currentTime = 0;
     } 
 
     async function init() {
